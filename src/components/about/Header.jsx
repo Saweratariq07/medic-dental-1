@@ -33,11 +33,11 @@ function Header() {
             <div className="flex flex-col pt-12 pb-14 sm:flex-row items-center sm:items-center justify-center gap-8 mt-6">
               <div className="btn">
                 <div className="btn">
-                  <a href="/main" target="_blank" rel="noopener noreferrer">
+                  <Link to="/main" >
                     <button className="bg-gradient-to-r font-semibold from-[#e7cd22] via-[#b29f1f] to-[#373317] text-black py-2 px-12 rounded-md w-full md:w-auto animate-button">
                       Medical 
                     </button>
-                  </a>
+                  </Link>
 
                 </div>
               </div>
@@ -46,11 +46,11 @@ function Header() {
               <div className="btn ms-8">
                 <div className="btn">
               
-                  <a href="/dent" target="_blank" rel="noopener noreferrer">
+                  <Link to="/dent">
                     <button className="bg-gradient-to-r font-semibold px-12 from-[#e7cd22] via-[#b29f1f] to-[#373317] text-black py-2  rounded-md w-full md:w-auto animate-button">
                       Dental 
                     </button>
-                  </a>
+                  </Link>
                 
                 </div>
               </div>
