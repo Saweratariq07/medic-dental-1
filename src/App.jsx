@@ -36,6 +36,7 @@ import Statement from "./components/statement/Statement";
 import Blogs from "./components/blogs/Blogs"
 import Patients from "./components/patients/Patients";
 import Link from "./components/link/Link";
+import Cont from "./components/cont/Cont";
 function App() {
   return (
     <div className='container-fluid'>
@@ -75,7 +76,7 @@ function App() {
  <Route path="/patients" element={<Patients />} />
  <Route path="/link" element={<Link />} />
  
- {/* <Route path="/doctor" element={<Doctors />} /> */}
+ <Route path="/cont" element={<Cont />} />
  {/* <Route path="/doctor" element={<Doctors />} /> */}
 
 
