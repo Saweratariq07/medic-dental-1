@@ -113,7 +113,7 @@ function Dental() {
           <div className="flex mt-6 gap-1 text-3xl text-[#41f350]">
 
             <div className="flex-1">
-              <h1 className=" text-2xl ms-4 font-bold text-[#facc15] text-start">A Message from Dr. Donnelly:</h1>
+              <h1 className=" text-2xl ms-4 font-bold text-[#facc15] text-start">A Message from Dr. .....:</h1>
             </div>
           </div>
           <h4 className='mt-3 ms-8 text-start'>
