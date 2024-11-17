@@ -8,8 +8,11 @@ function Contact() {
 
 
   return (
+    <div>
+       <Nav/>
+   
     <div className="bg-black min-h-screen flex items-center justify-center pt-24 py-10">
-     <Nav/>
+    
       <div className="relative w-full max-w-2xl bg-gradient-to-r  from-[#e7cd22] via-[#b29f1f] to-[#373317] p-12 rounded-lg border-black">
         <form  className="space-y-6">
           <div>
@@ -91,6 +94,7 @@ function Contact() {
           </button>
         </form>
       </div>
+    </div>
     </div>
   );
 };

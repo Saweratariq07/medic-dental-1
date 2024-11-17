@@ -133,7 +133,7 @@ function Heeder() {
               </div>
 
               <div className="hidden md:block">
-                <Link to="/contact">
+                <Link to="/cont">
                   <button
                     type="button"
                     className="relative rounded-full text-[#facc15] px-4 py-2 text-lg font-semibold border-2 border-[#facc15] hover:text-white hover:border-[#facc15] hover:bg-[#facc15] bg-transparent"
@@ -154,7 +154,7 @@ function Heeder() {
             <Link to="/doctor" className="block px-3 py-2 rounded-md text-base font-medium">Staff</Link>
             <Link to="/blogs" className="block px-3 py-2 rounded-md text-base font-medium">Blogs</Link>
             <Link to="/appoinment" className="block px-3 py-2 rounded-md text-base font-medium">Appointments</Link>
-            <Link to="/contact" className="block px-3 py-2 rounded-md text-base font-medium">Contact Us</Link>
+            <Link to="/cont" className="block px-3 py-2 rounded-md text-base font-medium">Contact Us</Link>
           </div>
         </div>
       </nav>
