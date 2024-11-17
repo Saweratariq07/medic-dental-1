@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <div className=''>
-{/* <Servs/> */}
       <div className="relative w-full h-auto overflow-hidden">
         {/* <video
           autoPlay
@@ -20,7 +19,6 @@ function Header() {
           <div className="bg">
             <div className="relative pt-20 w-full flex flex-col items-center justify-center">
               <div className="relative z-10 text-[#facc15] py-2 opacity-80 w-full max-w-3xl rounded-md text-center">
-                {/* Centered Image */}
                 <div className="flex justify-center items-center">
                   <img src="img.png" alt="" className="w-auto h-auto" />
                 </div>

@@ -1,12 +1,13 @@
 import React from 'react'
 import { FaClock, FaPhoneAlt, FaExclamationTriangle } from 'react-icons/fa';
 import Nav from '../home/Nav';
+import Heeder from '../navbar/Heeder';
 
 function Open() {
   return (
     <div>
       <div className="relative bg-black w-full h-auto overflow-hidden">
-      <Nav/>
+      <Heeder/>
         <div className="relative z-10 md:pt-24 flex flex-col items-center justify-center h-full p-4 md:p-10 text-[#facc15]  space-y-8">
           <div className="max-w-4xl mx-auto px-4 md:px-6 py-8 bg-transparent rounded-lg">
 

@@ -21,7 +21,6 @@ function Contact() {
              
               className="w-full p-4 border-2 border-black bg-transparent placeholder-black focus:outline-none"
             />
-            {/* {formErrors.name && <span className="text-red-500 text-sm">{formErrors.name}</span>} */}
           </div>
 
           <div className="grid grid-cols-2 gap-6">
@@ -43,15 +42,12 @@ function Contact() {
               
                 className="w-full p-4 border-2 border-black bg-transparent placeholder-black focus:outline-none"
               />
-              {/* {formErrors.phone && <span className="text-red-500 text-sm">{formErrors.phone}</span>} */}
             </div>
           </div>
 
           <div>
             <select
               name="service"
-              // value={formData.service}
-              // onChange={handleInputChange}
               className="w-full p-4 border-2 border-black bg-transparent text-black focus:outline-none"
             >
               <option value="">Select Service</option>
@@ -64,8 +60,6 @@ function Contact() {
             <input
               type="date"
               name="date"
-              // value={formData.date}
-              // onChange={handleInputChange}
               className="w-full p-4 border-2 border-black bg-transparent placeholder-black focus:outline-none"
             />
           </div>
@@ -74,19 +68,14 @@ function Contact() {
             <textarea
               name="message"
               placeholder="Additional Note"
-              // value={formData.message}
-              // onChange={handleInputChange}
               className="w-full h-32 p-4 border-2 border-black bg-transparent placeholder-black focus:outline-none"
             />
-            {/* {formErrors.message && <span className="text-red-500 text-sm">{formErrors.message}</span>} */}
           </div>
 
           <div className="flex items-start text-black justify-between">
             <input
               type="checkbox"
               name="acceptedTerms"
-              // checked={formData.acceptedTerms}
-              // onChange={handleInputChange}
               className="mr-2 bg-black"
               required
             />
@@ -94,8 +83,6 @@ function Contact() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
             </p>
           </div>
-          {/* {formErrors.acceptedTerms && <span className="text-red-500 text-sm">{formErrors.acceptedTerms}</span>} */}
-
           <button
             type="submit"
             className="w-full bg-black text-yellow-400 font-semibold py-3 rounded-md hover:bg-yellow-600 transition duration-200"

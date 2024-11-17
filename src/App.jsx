@@ -16,7 +16,6 @@ import FeesSection from "./components/fees/FeesSection";
 import Service from "./components/service/Service";
 import Appointment from "./components/appoin/Appoinment";
 import Links from "./components/links/Links";
-// import Links from "./components/links/Links";
 
 import Inform from "./components/info/Inform";
 import Women from "./components/women/Women";
@@ -31,7 +30,12 @@ import Heeder from "./components/navbar/Heeder";
 import Doctors from "./components/doctor/Doctors";
 import Appoin from "./components/appoinment/Appoin";
 import Open from "./components/open/Open";
-
+import Fee from "./components/fee/Fee"
+import Blog from "./components/blog/Blog"
+import Statement from "./components/statement/Statement";
+import Blogs from "./components/blogs/Blogs"
+import Patients from "./components/patients/Patients";
+import Link from "./components/link/Link";
 function App() {
   return (
     <div className='container-fluid'>
@@ -46,7 +50,6 @@ function App() {
  <Route path="/hours" element={<Hours />} />
  <Route path="/servs" element={<Servs />} />
  <Route path="/dent" element={<Dentalss />} />
- {/* <Route path="/dental" element={<Dental />} /> */}
  <Route path="/privacyPolicy" element={<Privacy />} />
  <Route path="/fees" element={<FeesSection />} />
  <Route path="/appoin" element={<Appointment />} />
@@ -54,7 +57,6 @@ function App() {
  <Route path="/links" element={<Links />} />
  <Route path="/meen" element={<Meen />} />
  <Route path="/info" element={<Inform />} />
- {/* <Route path="/women" element={<Women />} /> */}
  <Route path="/cookie" element={<Cookie />} />
  <Route path="/terms" element={<Terms />} />
 
@@ -66,12 +68,12 @@ function App() {
  <Route path="/appoinment" element={<Appoin />} />
  <Route path="/navbar" element={<Heeder />} />
  <Route path="/open" element={<Open />} />
- <Route path="/doctor" element={<Doctors />} />
- <Route path="/doctor" element={<Doctors />} />
- <Route path="/doctor" element={<Doctors />} />
- <Route path="/doctor" element={<Doctors />} />
- <Route path="/doctor" element={<Doctors />} />
- <Route path="/doctor" element={<Doctors />} />
+ <Route path="/fee" element={<Fee />} />
+ <Route path="/blog" element={<Blog />} />
+ <Route path="/blogs" element={<Blogs />} />
+ <Route path="/statement" element={<Statement />} />
+ <Route path="/patients" element={<Patients />} />
+ <Route path="/link" element={<Link />} />
  
  {/* <Route path="/doctor" element={<Doctors />} /> */}
  {/* <Route path="/doctor" element={<Doctors />} /> */}

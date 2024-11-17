@@ -52,13 +52,11 @@ function Servs() {
 </tr>
 <tr className="border-b">
   <td className="p-4">Root Canal Treatment (Endodontics)</td>
-  {/* <td className="p-4 text-right font-semibold">(Endodontics)
-  </td> */}
+
 </tr>
 <tr className="border-b">
   <td className="p-4">Fluoride Treatments  </td>
-  {/* <td className="p-4 text-right font-semibold">(Endodontics)
-  </td> */}
+ 
 </tr>
 <tr className="border-b">
   <td className="p-4">Oral Surgery (Wisdom Tooth Extraction)
@@ -89,44 +87,6 @@ function Servs() {
 
       </table>
     </div>
-    
-    {/* <div className="mb-10">
-    <h3 className="text-2xl   md:text-3xl rounded-lg px-2 font-bold  bg-opacity-80 text-[#facc15]  mb-4 inline-flex p-2">
-    <FaStethoscope className="mr-2 text-[#facc15] " /> GMS Patients
-    </h3>
-      <table className="w-full  border-2 border-[#facc15]   border-collapse bg-transparent shadow-md">
-      <tbody className=' bg-opacity-80'> 
-<tr className="border-b">
-  <td className="p-4">Blood Test</td>
-  <td className="p-4 text-right font-semibold">&euro;20</td>
-</tr>
-<tr className="border-b">
-  <td className="p-4">Joint Injection</td>
-  <td className="p-4 text-right font-semibold">&euro;40</td>
-</tr>
-</tbody>
-
-      </table>
-    </div>
-
-    <div className="mb-10">
-      <h3 className="text-2xl md:text-3xl rounded-lg px-2 font-bold  bg-opacity-80 text-[#facc15]  mb-4 inline-flex p-2">
-        <FaMoneyBillWave className="mr-2 text-[#facc15] " /> All Patients
-      </h3>
-      <table className="w-full border-collapsez bg-transparent  border-2 border-[#facc15]  shadow-md">
-      <tbody className=' bg-opacity-80'> 
-<tr className="border-b">
-  <td className="p-4">Medical Certificate (more than 3 days)</td>
-  <td className="p-4 text-right font-semibold">&euro;20</td>
-</tr>
-<tr className="border-b">
-  <td className="p-4">Driving Licence</td>
-  <td className="p-4 text-right font-semibold">&euro;50</td>
-</tr>
-</tbody>
-
-      </table>
-    </div> */}
   </div>
     </div>
   )

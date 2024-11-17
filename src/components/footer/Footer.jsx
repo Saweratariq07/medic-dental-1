@@ -21,7 +21,7 @@ export default function Footer() {
                 <CiFacebook className="text-4xl" />
               </a>
               <a
-                href="https://www.linkedin.com/company/frenchpark-medical-centre/"
+                href=""
                 className="hover:bg-white hover:text-blue-600 transition-colors duration-300 p-2 rounded-full"
                 aria-label="LinkedIn"
               >
@@ -38,14 +38,14 @@ export default function Footer() {
             <div className="mt-6">
               <p className="flex items-center justify-center text-lg">
                 <FaPhoneAlt className="mr-2" />
-                <a href="tel:+3530949870707" className="text-lg hover:underline transition-colors duration-300">
+                <a href="" className="text-lg hover:underline transition-colors duration-300">
                   +12345678
                 </a>
               </p>
 
               <p className="flex items-center justify-center text-lg">
                 <FaEnvelope className="mr-2" />
-                <a href="mailto:info@frenchparkmedicalcentre.com" className="text-lg hover:underline transition-colors duration-300">
+                <a href="" className="text-lg hover:underline transition-colors duration-300">
                   lorem@gmail.com
                 </a>
               </p>

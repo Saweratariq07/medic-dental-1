@@ -1,10 +1,10 @@
 import React from 'react'
-import Nav from '../home/Nav'
+import Heeder from '../navbar/Heeder'
 
-function Blog() {
+function Blogs() {
   return (
     <div className='bg-black'>
-      <Nav/>
+      <Heeder/>
       <main className='py-24'>
         <h1>Blogs</h1>
       </main>
@@ -12,4 +12,4 @@ function Blog() {
   )
 }
 
-export default Blog
+export default Blogs

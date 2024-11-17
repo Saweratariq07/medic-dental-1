@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaFileAlt, FaCar, FaFileMedical } from 'react-icons/fa'; 
 import Nav from '../home/Nav';
+import Heeder from '../navbar/Heeder';
 
 const Link = () => {
   const links = [
@@ -38,7 +39,7 @@ const Link = () => {
   return ( 
     <div>
       <div className="relative w-full bg-black h-auto overflow-hidden">
-       <Nav/>
+       <Heeder/>
          
         <div className="relative z-10 pt-36 flex flex-col items-center justify-center h-full p-10 text-[#facc15]  space-y-8">
           <div className="min-h-screen flex justify-center py-10">

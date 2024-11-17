@@ -1,11 +1,12 @@
 import React from 'react';
 import { AiFillAlert } from 'react-icons/ai'; 
+import Heeder from '../navbar/Heeder';
 
 function Patients() {
     return (
         <div>
             <div className="relative bg-black w-full h-auto overflow-hidden">
-            
+            <Heeder/>
                 <div className="relative z-10  flex flex-col items-center justify-center h-full p-5 md:p-10   space-y-8">
                     <div className="flex flex-wrap justify-center items-center mt-36 space-y-4 md:space-y-0 md:space-x-12">
                         <div className="flex flex-col items-center w-full md:w-1/3">

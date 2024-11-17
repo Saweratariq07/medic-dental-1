@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Nav from '../home/Nav';
+import Heeder from '../navbar/Heeder';
 
 function Appoin() {
   const [formData, setFormData] = useState({
@@ -29,7 +30,7 @@ function Appoin() {
   return (
     <div>
       <div>
-        <Nav/>
+      <Heeder/>
       </div>
     <div className="relative bg-black w-full h-auto overflow-hidden">
 
@@ -166,7 +167,7 @@ function Appoin() {
             <div className="col-span-1 md:col-span-2">
               
             <a
-  href="mailto:info@frenchparkmedicalcentre.com"
+  href=""
   className="w-full bg-[#facc15]  text-black font-bold py-2 px-4 rounded-md shadow hover:bg-[#facc15]  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#facc15]  text-center block"
 >
   Submit Appointment

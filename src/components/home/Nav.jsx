@@ -76,8 +76,6 @@ function Nav() {
                 </svg>
               </button>
             </div>
-
-            {/* Desktop Navigation */}
             <div className="hidden md:flex  py-2 px-4 rounded-lg opacity-75 ms-32 space-x-4 text-[#facc15] flex-wrap">
               <Link to="/" className="nav-item relative rounded-md px-3 py-2 text-lg font-semibold hover:text-[#facc15] transition-all" onClick={handleNavItemClick}>Home</Link>
               <Link to="/hours" className="nav-item relative rounded-md px-3 py-2 text-lg font-semibold hover:text-[#facc15] transition-all" onClick={handleNavItemClick}>Opening Hours</Link>
@@ -86,7 +84,7 @@ function Nav() {
               <Link to="/blog" className="nav-item relative rounded-md px-3 py-2 text-lg font-semibold hover:text-[#facc15] transition-all" onClick={handleNavItemClick}>Blogs</Link>
 
               <div className="relative group nav-item">
-                <Link to="/servs" className="nav-item relative rounded-md px-3 py-2 text-lg font-semibold text-[#facc15] hover:text-[#facc15] transition-all" onClick={handleNavItemClick}>Services</Link>
+                <Link to="/service" className="nav-item relative rounded-md px-3 py-2 text-lg font-semibold text-[#facc15] hover:text-[#facc15] transition-all" onClick={handleNavItemClick}>Services</Link>
               </div>
 
               <div
@@ -146,7 +144,6 @@ function Nav() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
         <div className={`md:hidden ${isNavOpen ? 'block' : 'hidden'}`} id="mobile-menu">
           <div className="space-y-1 px-2 pt-2 pb-3 sm:px-3 bg-blue-950 text-white">
             <Link to="/" className="block px-3 py-2 rounded-md text-base font-medium">Home</Link>

@@ -1,13 +1,15 @@
 'use client'
 import React from 'react'
 import { FaMoneyBillWave, FaStethoscope, FaUserMd } from 'react-icons/fa'
+import Heeder from '../navbar/Heeder'
 function Fee() {
   return (
     <div className='bg-black'>
+        <Heeder/>
      <div className="relative pt-24 z-10 flex flex-col items-center justify-center h-full p-10  text-[#facc15]  space-y-8">
   
-   
-    <h2 className="text-2xl md:text-3xl    mt-20 rounded-lg px-2 font-bold  bg-opacity-80 text-[#facc15] mb-4 inline-block p-2">Services</h2>
+ 
+    <h2 className="text-2xl md:text-3xl    mt-20 rounded-lg px-2 font-bold  bg-opacity-80 text-[#facc15] mb-4 inline-block p-2">Fees</h2>
 
     <div className="mb-10 ">
       <h3 className="text-2xl    md:text-3xl rounded-lg px-2 font-bold  bg-opacity-80 text-[#facc15]  mb-4 inline-flex p-2">

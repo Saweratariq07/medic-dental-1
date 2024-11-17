@@ -23,41 +23,6 @@ const staffMembers = [
     ],
     icon: <FaUserMd className="text-5xl text-[#facc15]  mx-auto" />,
   },
-  // {
-  //   name: 'Mr. .....',
-  //   role: 'HR Manager',
-  //   qualifications: [],
-  //   bio: '',
-  //   icon: <FaBriefcase className="text-5xl text-[#facc15]  mx-auto" />,
-  // },
-  // {
-  //   name: 'Dr. .....',
-  //   role: 'HR Manager/IT Adviser',
-  //   qualifications: [],
-  //   bio: '',
-  //   icon: <FaBriefcase className="text-5xl text-[#facc15]  mx-auto" />,
-  // },
-  // {
-  //   name: 'Ruth Kelly',
-  //   role: 'Staff Nurse',
-  //   qualifications: [],
-  //   bio: '',
-  //   icon: <FaUserNurse className="text-5xl text-[#facc15]  mx-auto" />,
-  // },
-  // {
-  //   name: 'Margaret O’Gara',
-  //   role: 'Medical Secretary/ Assistant',
-  //   qualifications: [],
-  //   bio: '',
-  //   icon: <FaBriefcase className="text-5xl text-[#facc15]  mx-auto" />,
-  // },
-  // {
-  //   name: 'Karen Drury',
-  //   role: 'Medical Secretary',
-  //   qualifications: [],
-  //   bio: '',
-  //   icon: <FaBriefcase className="text-5xl text-[#facc15]  mx-auto" />,
-  // },
 ];
 
 const Doctors = () => {

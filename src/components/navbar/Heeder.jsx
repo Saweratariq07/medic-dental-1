@@ -84,7 +84,7 @@ function Heeder() {
               <Link to="/open" className="nav-item relative rounded-md px-3 py-2 text-lg font-semibold hover:text-[#facc15] transition-all" onClick={handleNavItemClick}>Opening Hours</Link>
               <Link to="/doctor" className="nav-item relative rounded-md px-3 py-2 text-lg font-semibold hover:text-[#facc15] transition-all" onClick={handleNavItemClick}>Staff</Link>
               <Link to="/appoinment" className="nav-item relative rounded-md px-3 py-2 text-lg font-semibold hover:text-[#facc15] transition-all" onClick={handleNavItemClick}>Appointments</Link>
-              <Link to="/blog" className="nav-item relative rounded-md px-3 py-2 text-lg font-semibold hover:text-[#facc15] transition-all" onClick={handleNavItemClick}>Blogs</Link>
+              <Link to="/blogs" className="nav-item relative rounded-md px-3 py-2 text-lg font-semibold hover:text-[#facc15] transition-all" onClick={handleNavItemClick}>Blogs</Link>
               <div className="relative group nav-item">
                 <Link to="/servs" className="nav-item relative rounded-md px-3 py-2 text-lg font-semibold text-[#facc15] hover:text-[#facc15] transition-all" onClick={handleNavItemClick}>Services</Link>
               </div>
@@ -101,7 +101,7 @@ function Heeder() {
                       <Link to="/statement" onClick={handleNavItemClick}>
                         <li className="px-4 py-2 font-semibold hover:bg-white hover:text-blue-950">Statements</li>
                       </Link>
-                      <Link to="/patient" onClick={handleNavItemClick}>
+                      <Link to="/patients" onClick={handleNavItemClick}>
                         <li className="px-4 py-2 font-semibold hover:bg-white hover:text-blue-950">Patient Rights</li>
                       </Link>
                     </ul>
@@ -124,9 +124,9 @@ function Heeder() {
                       <Link to="/link" onClick={handleNavItemClick}>
                         <li className="px-4 py-2 font-semibold hover:bg-white hover:text-blue-950">Useful Links</li>
                       </Link>
-                      <Link to="/inform" onClick={handleNavItemClick}>
+                      {/* <Link to="/inform" onClick={handleNavItemClick}>
                         <li className="px-4 py-2 font-semibold hover:bg-white hover:text-blue-950">More Information</li>
-                      </Link>
+                      </Link> */}
                     </ul>
                   </div>
                 )}
@@ -152,7 +152,7 @@ function Heeder() {
             <Link to="/" className="block px-3 py-2 rounded-md text-base font-medium">Home</Link>
             <Link to="/open" className="block px-3 py-2 rounded-md text-base font-medium">Opening Hours</Link>
             <Link to="/doctor" className="block px-3 py-2 rounded-md text-base font-medium">Staff</Link>
-            <Link to="/blog" className="block px-3 py-2 rounded-md text-base font-medium">Blogs</Link>
+            <Link to="/blogs" className="block px-3 py-2 rounded-md text-base font-medium">Blogs</Link>
             <Link to="/appoinment" className="block px-3 py-2 rounded-md text-base font-medium">Appointments</Link>
             <Link to="/contact" className="block px-3 py-2 rounded-md text-base font-medium">Contact Us</Link>
           </div>

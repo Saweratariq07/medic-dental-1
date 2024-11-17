@@ -2,13 +2,14 @@ import React from 'react'
 import { FaExclamationTriangle, FaUserShield, FaBalanceScale, FaCommentDots } from 'react-icons/fa';
 import { FaInfoCircle, FaUserMd, FaGavel, FaBriefcase, FaGraduationCap, FaChartLine } from 'react-icons/fa';
 import Nav from '../home/Nav';
+import Heeder from '../navbar/Heeder';
 
 function Statement() {
   return (
     <div>
       <div className="relative bg-black w-full h-auto overflow-hidden  ">
      
-      <Nav/>
+      <Heeder/>
 
         {/* <div className="absolute inset-0 bg-[#1977cc] opacity-50"></div> */}
 
