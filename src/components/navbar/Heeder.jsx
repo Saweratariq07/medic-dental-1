@@ -152,6 +152,7 @@ function Heeder() {
             <Link to="/" className="block px-3 py-2 rounded-md text-base font-medium">Home</Link>
             <Link to="/open" className="block px-3 py-2 rounded-md text-base font-medium">Opening Hours</Link>
             <Link to="/doctor" className="block px-3 py-2 rounded-md text-base font-medium">Staff</Link>
+            <Link to="/servs" className="block px-3 py-2 rounded-md text-base font-medium">Services</Link>
             <Link to="/blogs" className="block px-3 py-2 rounded-md text-base font-medium">Blogs</Link>
             <Link to="/appoinment" className="block px-3 py-2 rounded-md text-base font-medium">Appointments</Link>
             <Link to="/cont" className="block px-3 py-2 rounded-md text-base font-medium">Contact Us</Link>
