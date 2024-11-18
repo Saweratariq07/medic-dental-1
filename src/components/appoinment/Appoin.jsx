@@ -129,8 +129,8 @@ function Appoin() {
                   className="mt-1 block text-black w-full border border-gray-300 p-2 rounded-md shadow-sm focus:ring-[#facc15]  focus:border-[#facc15] "
                 >
                   <option value="" disabled>Select a Doctor</option>
-                  <option value="Dr. Muhammad Ghaznain">Dr Hassaan Chughtai</option>
-                  <option value="Dr. Catherine Donnelly">Dr. Shamim Haider                  </option>
+                  <option value="Dr. Muhammad Ghaznain">Dr Asim Atiq </option>
+                  <option value="Dr. Catherine Donnelly">Dr. .....                  </option>
                 </select>
               </div>
 
