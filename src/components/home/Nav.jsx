@@ -150,6 +150,8 @@ function Nav() {
             <Link to="/hours" className="block px-3 py-2 rounded-md text-base font-medium">Opening Hours</Link>
             <Link to="/doctors" className="block px-3 py-2 rounded-md text-base font-medium">Staff</Link>
             <Link to="/appoin" className="block px-3 py-2 rounded-md text-base font-medium">Appointments</Link>
+            <Link to="/blog" className="block px-3 py-2 rounded-md text-base font-medium">Blogs</Link>
+            <Link to="/service" className="block px-3 py-2 rounded-md text-base font-medium">Services</Link>
             <Link to="/contact" className="block px-3 py-2 rounded-md text-base font-medium">Contact Us</Link>
           </div>
         </div>
